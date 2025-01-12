@@ -2,4 +2,13 @@ Created a scratch pad plugin flowing a [blog tutorial](https://miguelcrespo.co/p
 
 The plugin creates a new buffer labelled scratch upon opening neovim.
 
-My frist plugin :)
+My first plugin :)
+
+The plugin has one method
+- open : opens the scratch pad buffer
+
+```lua
+vim.keymap.set('n',"<leader>bo",require("scratch-buffer").open)
+
+```
+
